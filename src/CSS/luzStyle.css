@@ -1,0 +1,89 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://img.freepik.com/fotos-gratis/galaxia-noturna_23-2148895320.jpg?w=826&t=st=1700233420~exp=1700234020~hmac=1acc34e3bebc3e300926df2e24a647a214ceb8421d145d8e2af9788f4b95918a");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+}
+
+.conversor-section {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px; 
+  
+}
+
+.page-title, .conversor {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle, .instrucoes {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  margin-top: 20px; 
+}
+
+.alura-logo {
+  width: 40px;
+  margin-top: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+  max-height: 250px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+img.rodape-logo {
+  width: 60px;
+  margin-left: 10px;
+}
+.ir-para-conversor {
+  padding: 15px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 210px;
+  margin-left: 10px; 
+}
+#resultado, #resultadoAnosLuz {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 10px;
+}
